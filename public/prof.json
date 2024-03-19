@@ -1,0 +1,33 @@
+[
+    {"id":1,
+      "nom": "Doe",
+      "prénom": "John",
+      "num tel": "0655555555",
+      "email": "john.doe@example.com",
+      "wilaya": "Alger",
+      "commune": "Alger Centre",
+      "établissement": "Université d'Alger",
+      "fichiers joints": ["cv_john_doe.pdf", "diplome_john_doe.pdf"]
+    },
+    { "id":2,
+      "nom": "Smith",
+      "prénom": "Jane",
+      "num tel": "0655555555",
+      "email": "jane.smith@example.com",
+      "wilaya": "Oran",
+      "commune": "Oran Centre",
+      "établissement": "Université d'Oran",
+      "fichiers joints": ["cv_jane_smith.pdf", "diplome_jane_smith.pdf"]
+    },
+    { "id":3,
+      "nom": "Garcia",
+      "prénom": "Maria",
+      "num tel": "0655555555",
+      "email": "maria.garcia@example.com",
+      "wilaya": "Constantine",
+      "commune": "Constantine Centre",
+      "établissement": "Université de Constantine",
+      "fichiers joints": ["cv_maria_garcia.pdf", "diplome_maria_garcia.pdf"]
+    }
+  ]
+  
