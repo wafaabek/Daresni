@@ -53,9 +53,10 @@ export default function ListeDesEtudiants() {
   const groupe = JSON.parse(groupeData);
 
   return (
-    <div className=' m-12 h-[500px] mt-16 bg-[#E4D9FF]  overflow-y-auto rounded-lg shadow-lg'>
-      <div className='m-6'>
-        <h1 className='text-2xl mb-10'>Liste des étudiants pour le groupe "{groupe.nom}"</h1>
+    <div className='m-[3%] p-7'>
+    <div className=' h-[400px] mt-16 w-[930px] bg-[#E4D9FF]  overflow-y-auto rounded-lg shadow-lg'> 
+      <div className='m-4'>
+        <h1 className='text-lg mb-6'>Liste des étudiants pour le groupe "{groupe.nom}"</h1>
        
         <Table
           columns={columns}
@@ -63,7 +64,7 @@ export default function ListeDesEtudiants() {
           size="middle"
         />
       </div>
-      
+      </div>
     </div>
   );
 }

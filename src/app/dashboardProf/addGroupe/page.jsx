@@ -24,18 +24,20 @@ export default function AddGroupe() {
   };
 
   return (
-    <div className=" w-full h-full bg-[#ece8f8]">
-      <div className='  w-[85%] h-[570px]  relative left-[8%] top-6 bg-[#ffffff]  overflow-y-auto rounded-lg shadow-lg'>
-        <div className=" mt-10 ml-32 flex flex-row ">
-          <h1 className=" text-2xl mt-4 "> Ajouter un groupe</h1>
-          <div className="absolute left-[70%]  ">
-            <button className="mr-2 border-[#6610F2] border-2 p-4 text-[#6610F2] rounded-xl " >Annuler</button>
-            <button type="submit" onClick={handleSubmit} className="ml-2 border-[#6610F2] border-2 p-4 text-white rounded-xl bg-[#6610F2] " >Sauvegarder</button>
-          </div>
+    <div className=" w-screen h-screen bg-[#ece8f8] flex flex-col justify-center ">
+    <div className=' w-[60%] h-[90%]  relative left-[10%] top-6 bg-[#ffffff]  overflow-y-auto rounded-lg shadow-lg '>
+      
+      <div className=" mt-8 ml-16 flex flex-row  ">
+        <h1 className=" text-xl mt-4 "> Ajouter un groupe </h1>
+        <div className="absolute left-[70%]  ">
+          <button className="mr-2 border-[#6610F2] border-2 p-2 text-sm text-[#6610F2] rounded-xl " >Annuler</button>
+          <button type="submit" onClick={handleSubmit} className="ml-2 border-[#6610F2] border-2 p-2 text-sm text-white rounded-xl bg-[#6610F2] " >Sauvegarder</button>
         </div>
-        <hr className="border-[#E4D9FF] ml-28 border-2  mt-16 w-[80%] " />
+      </div>
+      <div className=" flex flex-col justify-center items-center text-sm  ">
+        <hr className="border-[#E4D9FF]  border-1  mt-10 w-[90%] items-center " />
         <form>
-          <div className=" mt-4 ml-32 flex flex-col ml-[35%] ">
+          <div className=" mt-4 flex flex-col  ">
             <div className="flex flex-col ">
               <label htmlFor="groupeName"> Nom de groupe<span className="text-red-500">*</span></label>
               <input 
@@ -80,6 +82,7 @@ export default function AddGroupe() {
             </div>
           </div>
         </form>
+        </div>
       </div>
     </div>
   );
